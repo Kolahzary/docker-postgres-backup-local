@@ -1,4 +1,4 @@
-FROM postgres:11-alpine
+FROM postgres:alpine
 
 RUN set -x \
 	&& apk update && apk add ca-certificates curl \
